@@ -7,8 +7,9 @@
 ## Project Description:
 
 ## Daily Log:
+12/14/2021
 * Ishraq Mahid: Worked on formatting repo + website app + slides for teaching SQL Database
-
+* Grace Chen: Worked on researching SQLmap and going through a tutorial for it + taking   notes on how it works
 ## Haikus:
 soon™
 
