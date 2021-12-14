@@ -1,15 +1,11 @@
-# TEAM: Story Improv by TheOnionsOne
+# TEAM: Graceful Fish
 
 ## Roster: 
-* Ishraq Mahid (PM)
-* Lucas Tom-Wong (Front End Developer)
-* Tomas Acuña (Database Maintainer)
-* All (snake management)
+* Ishraq Mahid
+* Grace Chen
 
 ## Haikus:
-Goggles are worn here
-Eyes fill with sweet salty tears
-The Big Onion Wins.
+soon™
 
 ## Launch Codes:
 Prerequisites:
@@ -20,7 +16,7 @@ Clone repo:
     In the directory you want to have the code in, type into a terminal
     <br>
     ```
-    $ git clone git@github.com:turtlelazy/theonionsone.git
+    $ git clone git@github.com:turtlelazy/cybersecurity_final.git
     ```
     
 Create a virtual environment (unless you already have one):
@@ -42,18 +38,12 @@ Create a virtual environment (unless you already have one):
     pip install -r requirements.txt
     ```
     
-Opening theonionsone:
+Launching the website app:
     <br>
-    cd into the theonionsone repo
+    cd into app
     <br>
-    Then cd again to app 
-    
-Running code:
+    activate the virtual environment
     <br>
-    Once you are in the app directory, which contains app.py, type the following line into a terminal
-    <br>
-    ```
-    $ python3 app.py 
-    ```
+    run ```python3 __init__.py``` 
     <br>
     Open the link given from the the terminal.
