@@ -4,6 +4,11 @@
 * Ishraq Mahid
 * Grace Chen
 
+## Project Description:
+
+## Daily Log:
+* Ishraq Mahid: Worked on formatting repo + website app + slides for teaching SQL Database
+
 ## Haikus:
 soon™
 
