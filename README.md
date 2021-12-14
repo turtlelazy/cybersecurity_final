@@ -5,6 +5,7 @@
 * Grace Chen
 
 ## Project Description:
+We are creating a capture the flag type of activity where users will be required to use SQL injection and other already-taught tools. For the presentation, we will be teaching how SQL works and how to use SQLmap/how it works. The activity will require users to connect to a virtual machine hosted on one of our personal computers. 
 
 ## Daily Log:
 12/14/2021
@@ -53,3 +54,6 @@ Launching the website app:
     run ```python3 __init__.py``` 
     <br>
     Open the link given from the the terminal.
+    
+## Documents/Presentation
+Link to planning document: https://docs.google.com/document/d/1Ha1vOAJRb35Ei32Rkq19hncYhVfalp1soGSrM-R59Ik/edit?usp=sharing
