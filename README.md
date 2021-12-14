@@ -1,16 +1,17 @@
 # TEAM: Graceful Fish
 
-## Roster: 
+## Roster:
 * Ishraq Mahid
 * Grace Chen
 
 ## Project Description:
-We are creating a capture the flag type of activity where users will be required to use SQL injection and other already-taught tools. For the presentation, we will be teaching how SQL works and how to use SQLmap/how it works. The activity will require users to connect to a virtual machine hosted on one of our personal computers. 
+We are creating a capture the flag type of activity where users will be required to use SQL injection and other already-taught tools. For the presentation, we will be teaching how SQL works and how to use SQLmap/how it works. The activity will require users to connect to a virtual machine hosted on one of our personal computers.
 
 ## Daily Log:
 12/14/2021
-* Ishraq Mahid: Worked on formatting repo + website app + slides for teaching SQL Database
-* Grace Chen: Worked on researching SQLmap and going through a tutorial for it + taking   notes on how it works
+* Ishraq Mahid (in class): Worked on formatting repo + website app + slides for teaching SQL Database
+* Grace Chen (in class): Worked on researching SQLmap and going through a tutorial for it + taking notes on how it works
+
 ## Haikus:
 soon™
 
@@ -25,10 +26,10 @@ Clone repo:
     ```
     $ git clone git@github.com:turtlelazy/cybersecurity_final.git
     ```
-    
+
 Create a virtual environment (unless you already have one):
     <br>
-    A virtual environment can be created using the following line in a terminal 
+    A virtual environment can be created using the following line in a terminal
     <br>
     ```
     $ python3 -m venv ~/path/to/virtual/environment/directory
@@ -44,16 +45,16 @@ Create a virtual environment (unless you already have one):
     ```
     pip install -r requirements.txt
     ```
-    
+
 Launching the website app:
     <br>
     cd into app
     <br>
     activate the virtual environment
     <br>
-    run ```python3 __init__.py``` 
+    run ```python3 __init__.py```
     <br>
     Open the link given from the the terminal.
-    
+
 ## Documents/Presentation
 Link to planning document: https://docs.google.com/document/d/1Ha1vOAJRb35Ei32Rkq19hncYhVfalp1soGSrM-R59Ik/edit?usp=sharing
