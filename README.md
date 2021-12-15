@@ -15,8 +15,8 @@ We are creating a capture the flag type of activity where users will be required
 * Grace Chen (at home): Successfully set up a virtual machine for use. Opened port on the machine and connected from another device and it works but not sure how to apply it to our project yet. Port seems to only be open when target machine is listening on that port (ex. with netcat).
 
 ## Haikus:
-A graceful fish swims.
-Oh so very fast it is!
+A graceful fish swims. <br>
+Oh so very fast it is! <br>
 With grace comes freedom.
 
 ## Launch Codes:
