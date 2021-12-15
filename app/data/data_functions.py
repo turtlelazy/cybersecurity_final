@@ -31,3 +31,9 @@ def reset_data():
     "resets the database to empty user and story tables"
     open("data.db", "w").close()
     users.create(["username", "password"])
+    c = data.cursor()
+    c.execute("CREATE TABLE IF NOT EXISTS kpop(group TEXT PRIMARY KEY, description TEXT NOT NULL)")
+
+    recipesDictionary = [""]
+
+    data.commit()

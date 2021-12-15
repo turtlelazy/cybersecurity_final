@@ -5,6 +5,7 @@ from os import urandom
 app = Flask(__name__)
 debug = True
 
+app.secret_key = urandom(24)
 
 def unauthorizedFlow():
     '''
@@ -97,23 +98,24 @@ def authenticate():
     '''
     authorization page; redirects and logs in if credentials work, loads login template if not
     '''
-    try:
-        #retrieve from FORM instead of ARGS because we are retrieving from POST method
-        username = request.form.get('username')
-        password = request.form.get('password')
+#try:
+    #retrieve from FORM instead of ARGS because we are retrieving from POST method
+    username = request.form.get('username')
+    password = request.form.get('password')
 
-        #authflow variable
-        loginAuthorized = user_exists(
-            username) and correct_password(username, password)
+    #authflow variable
+    loginAuthorized = user_exists(
+        username) and correct_password(username, password)
+    print(loginAuthorized)
 
-        if loginAuthorized:
-            session['username'] = username
-            return redirect("/", code=302)
-        else:
-            return render_template('login_Page.html', extra_Message="Login failed, please try again")
+    if loginAuthorized:
+        session['username'] = username
+        return redirect("/", code=302)
+    else:
+        return render_template('login_Page.html', extra_Message="Login failed, please try again")
 
-    except:
-        return render_template('ErrorResponse.html')
+#except:
+    #return render_template('ErrorResponse.html')
 
 @app.route("/logout", methods=['GET', 'POST'])
 def logout():
