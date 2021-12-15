@@ -14,6 +14,9 @@ We are creating a capture the flag type of activity where users will be required
 * Grace Chen (in class): Worked on researching SQLmap and going through a tutorial for it + taking notes on how it works
 * Grace Chen (at home): Successfully set up a virtual machine for use. Opened port on the machine and connected from another device and it works but not sure how to apply it to our project yet. Port seems to only be open when target machine is listening on that port (ex. with netcat).
 
+12/15/2021
+* Grace Chen (in class): Clarified assignment regarding how to use virtual machine for the project. Researched bit more about SQLmap and discussed with partner about plans for the steps we need to take. 
+
 ## Haikus:
 A graceful fish swims. <br>
 Oh so very fast it is! <br>
