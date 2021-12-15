@@ -11,7 +11,7 @@ We are creating a capture the flag type of activity where users will be required
 12/14/2021
 * Ishraq Mahid (in class): Worked on formatting repo + website app + slides for teaching SQL Database
 * Grace Chen (in class): Worked on researching SQLmap and going through a tutorial for it + taking notes on how it works
-* Grace Chen (at home): Successfully set up a virtual machine for use. Successfully pinged machine from another device and attempted nmap but still need to figure out how to open ports on the machine.
+* Grace Chen (at home): Successfully set up a virtual machine for use. Opened port on the machine and connected from another device and it works but not sure how to apply it to our project yet. Port seems to only be open when target machine is listening on that port (ex. with netcat).
 
 ## Haikus:
 soon™
