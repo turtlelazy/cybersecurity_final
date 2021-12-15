@@ -9,12 +9,15 @@ We are creating a capture the flag type of activity where users will be required
 
 ## Daily Log:
 12/14/2021
-* Ishraq Mahid (in class): Worked on formatting repo + website app + slides for teaching SQL Database
+* Ishraq Mahid (in class): Worked on formatting repo + website app
+* Ishraq Mahid (at home): Worked on website app + haiku + VM setup
 * Grace Chen (in class): Worked on researching SQLmap and going through a tutorial for it + taking notes on how it works
 * Grace Chen (at home): Successfully set up a virtual machine for use. Opened port on the machine and connected from another device and it works but not sure how to apply it to our project yet. Port seems to only be open when target machine is listening on that port (ex. with netcat).
 
 ## Haikus:
-soon™
+A graceful fish swims.
+Oh so very fast it is!
+With grace comes freedom.
 
 ## Launch Codes:
 Prerequisites:
