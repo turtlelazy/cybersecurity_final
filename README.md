@@ -11,6 +11,7 @@ We are creating a capture the flag type of activity where users will be required
 12/14/2021
 * Ishraq Mahid (in class): Worked on formatting repo + website app + slides for teaching SQL Database
 * Grace Chen (in class): Worked on researching SQLmap and going through a tutorial for it + taking notes on how it works
+* Grace Chen (at home): Successfully set up a virtual machine for use. Successfully pinged machine from another device and attempted nmap but still need to figure out how to open ports on the machine.
 
 ## Haikus:
 soon™
