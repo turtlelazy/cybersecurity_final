@@ -20,6 +20,10 @@ We are creating a capture the flag type of activity where users will be required
 * Ishraq Mahid (in class): worked more on the website and talked about vm's. almost done with website shouuld finish at home
 * Ishraq Mahid (at home): finished the website and researched some sql injection tactics
 
+12/16/2021
+* Grace Chen (in class): Set up slides template, discussed plan for the activity and presentation, talked about utilization of virtual box and possibly using digital ocean
+* Ishraq Mahid (in class): Set up slides template, discussed plan for the activity and presentation, talked about utilization of virtual box and possibly using digital ocean
+
 ## Haikus:
 A graceful fish swims. <br>
 Oh so very fast it is! <br>
