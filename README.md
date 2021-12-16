@@ -13,6 +13,8 @@ We are creating a capture the flag type of activity where users will be required
 * Ishraq Mahid (at home): Worked on website app + haiku + VM setup
 * Grace Chen (in class): Worked on researching SQLmap and going through a tutorial for it + taking notes on how it works
 * Grace Chen (at home): Successfully set up a virtual machine for use. Opened port on the machine and connected from another device and it works but not sure how to apply it to our project yet. Port seems to only be open when target machine is listening on that port (ex. with netcat).
+* Ishraq Mahid (in class): worked more on the website and talked about vm's. almost done with website shouuld finish at home
+* Ishraq Mahid (at home): finished the website and researched some sql injection tactics
 
 12/15/2021
 * Grace Chen (in class): Clarified assignment regarding how to use virtual machine for the project. Researched bit more about SQLmap and discussed with partner about plans for the steps we need to take. 

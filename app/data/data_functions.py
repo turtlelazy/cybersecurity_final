@@ -32,8 +32,16 @@ def reset_data():
     open("data.db", "w").close()
     users.create(["username", "password"])
     c = data.cursor()
-    c.execute("CREATE TABLE IF NOT EXISTS kpop(group TEXT PRIMARY KEY, description TEXT NOT NULL)")
-
-    recipesDictionary = [""]
+    c.execute("CREATE TABLE IF NOT EXISTS kpop(band TEXT PRIMARY KEY,description TEXT)")
+    groupsList = {
+        "Blackpink" : "blackpink in your area",
+        "Twice" : "baby blue love best song",
+        "Everglow" : "ladida",
+        "BTS" : "dynamite",
+        "EXO" : "love shot",
+        "txt" : "crown",
+        "Kard" : "dimelo"}
+    for group in groupsList.keys():
+        c.execute(f"INSERT INTO kpop VALUES ('{group}','{groupsList[group]}')")
 
     data.commit()
