@@ -16,6 +16,7 @@ We are creating a capture the flag type of activity where users will be required
 
 12/15/2021
 * Grace Chen (in class): Clarified assignment regarding how to use virtual machine for the project. Researched bit more about SQLmap and discussed with partner about plans for the steps we need to take. 
+* Grace Chen (at home): researched more about sqlmap
 * Ishraq Mahid (in class): worked more on the website and talked about vm's. almost done with website shouuld finish at home
 * Ishraq Mahid (at home): finished the website and researched some sql injection tactics
 
