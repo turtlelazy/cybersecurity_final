@@ -29,6 +29,10 @@ A graceful fish swims. <br>
 Oh so very fast it is! <br>
 With grace comes freedom.
 
+Suddenly, currents form <br>
+The graceful fish can't keep up :( <br>
+Will its grace prevail?
+
 ## Launch Codes:
 Prerequisites:
     Python 3 is installed and necessary environment variables are setup properly.
