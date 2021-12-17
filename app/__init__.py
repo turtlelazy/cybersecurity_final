@@ -2,6 +2,7 @@ from flask import session
 from flask import request, render_template, Flask, redirect
 from data.data_functions import *
 from os import urandom
+from data.recipe_data import *
 app = Flask(__name__)
 debug = True
 
@@ -129,6 +130,10 @@ def logout():
     except:
         return render_template('ErrorResponse.html')
 
+@app.route("/band/<string:band>")
+def get_band(band):
+    print(getGroupInfo(band))
+    return getGroupInfo(band)[0]
 
 def main():
     """
