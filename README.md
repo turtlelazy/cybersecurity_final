@@ -24,6 +24,9 @@ We are creating a capture the flag type of activity where users will be required
 * Grace Chen (in class): Set up slides template, discussed plan for the activity and presentation, talked about utilization of virtual box and possibly using digital ocean
 * Ishraq Mahid (in class): Set up slides template, discussed plan for the activity and presentation, talked about utilization of virtual box and possibly using digital ocean
 
+12/17/2021
+* Grace Chen (in class): Worked on the google slides and clarified plan for steps to capture the flag
+
 ## Haikus:
 A graceful fish swims. <br>
 Oh so very fast it is! <br>
