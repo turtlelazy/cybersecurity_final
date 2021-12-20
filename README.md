@@ -27,6 +27,9 @@ We are creating a capture the flag type of activity where users will be required
 12/17/2021
 * Grace Chen (in class): Worked on the google slides and clarified plan for steps to capture the flag
 
+12/20/2021
+* Grace Chen (in class): Worked on code to create a list of hashed passwords to be used with hashcat later on.
+
 ## Haikus:
 A graceful fish swims. <br>
 Oh so very fast it is! <br>
