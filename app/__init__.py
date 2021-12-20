@@ -132,7 +132,12 @@ def logout():
 
 @app.route("/band/<string:band>")
 def get_band(band):
-    return render_template("display_band.html", band=band, contents = getGroupInfo(band)[0])
+    return redirect("/description/kpop/band/Blackpink")
+
+#attribute,table,search,condition
+@app.route("/<string:attribute>/<string:table>/<string:search>/<string:condition>")
+def get_info(attribute, table, search, condition):
+    return render_template("display_band.html", band=condition, contents=getInformation(attribute, table, search, condition)[0][0])
 
 def main():
     """

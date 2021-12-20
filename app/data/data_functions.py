@@ -36,7 +36,7 @@ def reset_data(file):
     file = open(file,"r").readlines()
     groupsList = {}
     for line in file:
-        groupsList[line.split()[0]] = line.replace("'","").replace('"','')
+        groupsList[line.split()[0]] = line.replace("'","").replace('"','').replace("\n","")
 
 
     for group in groupsList.keys():

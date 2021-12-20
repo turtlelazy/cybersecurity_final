@@ -5,5 +5,9 @@ data = connect("data.db", isolation_level=None, check_same_thread=False)
 def getGroupInfo(group):
     c = data.cursor()
     c.execute(f"SELECT description FROM kpop WHERE band = '{group}'")
-    string = c.fetchmany()[0]
-    return string
+    return c.fetchall()
+
+def getInformation(attribute,table,search,condition):
+    c = data.cursor()
+    c.execute(f"SELECT {attribute} FROM {table} WHERE {search} = '{condition}'")
+    return c.fetchall()
