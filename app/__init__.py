@@ -132,8 +132,7 @@ def logout():
 
 @app.route("/band/<string:band>")
 def get_band(band):
-    print(getGroupInfo(band))
-    return getGroupInfo(band)[0]
+    return render_template("display_band.html", band=band, contents = getGroupInfo(band)[0])
 
 def main():
     """

@@ -27,20 +27,18 @@ def add_user(username, password):
     edited_stories = Table(data, username, "title")
     edited_stories.create(["title"])
 
-def reset_data():
+def reset_data(file):
     "resets the database to empty user and story tables"
     open("data.db", "w").close()
     users.create(["username", "password"])
     c = data.cursor()
     c.execute("CREATE TABLE IF NOT EXISTS kpop(band TEXT PRIMARY KEY,description TEXT)")
-    groupsList = {
-        "Blackpink" : "blackpink in your area",
-        "Twice" : "baby blue love best song",
-        "Everglow" : "ladida",
-        "BTS" : "dynamite",
-        "EXO" : "love shot",
-        "txt" : "crown",
-        "Kard" : "dimelo"}
+    file = open(file,"r").readlines()
+    groupsList = {}
+    for line in file:
+        groupsList[line.split()[0]] = line.replace("'","").replace('"','')
+
+
     for group in groupsList.keys():
         c.execute(f"INSERT INTO kpop VALUES ('{group}','{groupsList[group]}')")
 
