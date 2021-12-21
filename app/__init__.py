@@ -132,12 +132,20 @@ def logout():
 
 @app.route("/band/<string:band>")
 def get_band(band):
-    return redirect("/description/kpop/band/Blackpink")
+    return redirect("/description/kpop/band/" + band)
 
 #attribute,table,search,condition
 @app.route("/<string:attribute>/<string:table>/<string:search>/<string:condition>")
 def get_info(attribute, table, search, condition):
     return render_template("display_band.html", band=condition, contents=getInformation(attribute, table, search, condition)[0][0])
+
+@app.route("/table")
+def table():
+    if request.form.get('query'):
+        print("there is a request!")
+
+    else:
+        print("there is not request")
 
 def main():
     """
