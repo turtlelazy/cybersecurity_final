@@ -32,6 +32,9 @@ We are creating a capture the flag type of activity where users will be required
 * Grace Chen (in class): Worked on code to create a list of hashed passwords to be used with hashcat later on.
 * Ishraq Mahid (in class and at home): Worked on thinking out ways to implement the different injection methods and allowing students to experiment with such methods
 
+12/21/2021
+* Grace Chen (in class): Finished code to create random list of 100 hashed passwords and uploaded data file with them.
+
 ## Haikus:
 A graceful fish swims. <br>
 Oh so very fast it is! <br>
