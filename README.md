@@ -36,6 +36,9 @@ We are creating a capture the flag type of activity where users will be required
 * Ishraq Mahid (in class): Brainstormed some more obstacles and ideas reguarding password cracking and the flags needed to be captured.
 * Grace Chen (in class): Finished code to create random list of 100 hashed passwords and uploaded data file with them.
 
+12/22/2021
+* Grace Chen (in class): Finished code to create a list of salted and hashed passwords and uploaded 
+
 ## Haikus:
 A graceful fish swims. <br>
 Oh so very fast it is! <br>
