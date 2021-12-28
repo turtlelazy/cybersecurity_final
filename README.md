@@ -39,6 +39,9 @@ We are creating a capture the flag type of activity where users will be required
 12/22/2021
 * Grace Chen (in class): Finished code to create a list of salted and hashed passwords and uploaded 
 
+12/28/2021
+* Grace Chen (at home): Set up Digitalocean account and successfully deployed a test machine and logged into it.
+
 ## Haikus:
 A graceful fish swims. <br>
 Oh so very fast it is! <br>
