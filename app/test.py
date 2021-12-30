@@ -4,4 +4,4 @@ from data.recipe_data import *
 # print(getGroupInfo(
 #     "Blackpink' UNION SELECT description FROM kpop WHERE band = 'Twice' ;--"))
 
-print(getInformation("description","kpop","band","Blackpink"))
+print(getMatches("contacts","first_name","Bo"))

@@ -81,13 +81,19 @@ def logout():
 def get_info(attribute, table, search, condition):
     return render_template("display_band.html", band=condition, contents=getInformation(attribute, table, search, condition)[0][0])
 
-@app.route("/table")
-def table():
-    if request.form.get('query'):
-        print("there is a request!")
 
-    else:
-        print("there is not request")
+@app.route("/table", methods=['GET', 'POST'])
+def table():
+    response = request.args.get("query")
+    response = getMatches("contacts", "first_name", response)
+
+
+    return render_template("search_table.html",response=response)
+
+
+@app.route("/searchbar",methods=['GET', 'POST'])
+def searchbar():
+    return render_template("searchbar.html")
 
 def main():
     """

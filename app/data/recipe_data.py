@@ -11,3 +11,9 @@ def getInformation(attribute,table,search,condition):
     c = data.cursor()
     c.execute(f"SELECT {attribute} FROM {table} WHERE {search} = '{condition}'")
     return c.fetchall()
+
+def getMatches(table,search,condition):
+    c= data.cursor()
+    c.execute(
+        f"SELECT * FROM {table} WHERE {search} LIKE '%{condition}%'")
+    return c.fetchall()
