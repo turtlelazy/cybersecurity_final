@@ -31,12 +31,16 @@ def welcome():
     '''
     Welcome Page
     '''
+
+    if userSignedIn():
+        return "logged in users should see something different"
     return render_template("main_page.html")
 
 @app.route("/login", methods = ['GET','POST'])
 def login():
     '''login page'''
-
+    if userSignedIn():
+        return redirect("/")
     return render_template('login_Page.html')
 
 @app.route("/auth_ed", methods=['POST'])
@@ -46,6 +50,8 @@ def authenticate():
     '''
 #try:
     #retrieve from FORM instead of ARGS because we are retrieving from POST method
+    if userSignedIn():
+        return redirect("/")
     username = request.form.get('username')
     password = request.form.get('password')
 
@@ -90,9 +96,18 @@ def table():
 
     return render_template("search_table.html",response=response)
 
+@app.route("/members",methods=['GET'])
+def members():
+    response = ["a","b","c"]
+    return render_template("show_list.html",resource_response=response)
 
 @app.route("/searchbar",methods=['GET', 'POST'])
 def searchbar():
+    if "query" in request.args.keys():
+        response = request.args.get("query")
+        response = getMatches("contacts", "first_name", response)
+
+        return render_template("searchbar.html", response=response)
     return render_template("searchbar.html")
 
 def main():

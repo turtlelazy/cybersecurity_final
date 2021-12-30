@@ -4,4 +4,4 @@ from data.recipe_data import *
 # print(getGroupInfo(
 #     "Blackpink' UNION SELECT description FROM kpop WHERE band = 'Twice' ;--"))
 
-print(getMatches("contacts","first_name","Bo"))
+print(execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'"))

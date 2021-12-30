@@ -17,3 +17,8 @@ def getMatches(table,search,condition):
     c.execute(
         f"SELECT * FROM {table} WHERE {search} LIKE '%{condition}%'")
     return c.fetchall()
+
+def execute(command):
+    c = data.cursor()
+    c.execute(command)
+    return c.fetchall()
