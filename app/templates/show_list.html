@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <title>{{resource}}</title>
+
+    <h1>{{resource}}!</h1>
+
+    <body>
+
+        {% for item in resource_response %}
+            <div class="card-body">
+                <h5 class="card-title">
+                    {item}
+                </h5>
+            
+                <a href="/{item}" class="btn btn-primary">
+            
+                </a>
+            </div>
+
+        {% endfor %}
+
+        
+    </body>
+</html>

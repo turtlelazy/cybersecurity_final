@@ -31,68 +31,13 @@ def welcome():
     '''
     Welcome Page
     '''
-    if userSignedIn():
-        return "logged in"
-    return 'You can do better than this. Go forth!'
+    return render_template("main_page.html")
 
 @app.route("/login", methods = ['GET','POST'])
 def login():
     '''login page'''
 
     return render_template('login_Page.html')
-
-@app.route("/register", methods=['GET', 'POST'])
-def disp_registerpage():
-    '''
-    register page
-    '''
-    try:
-        if userSignedIn():
-            return unauthorizedFlow()
-
-        return render_template('register.html')
-    except:
-        return render_template('ErrorResponse.html')
-
-
-@app.route("/check_register", methods=['GET', 'POST'])
-def check_register():
-    '''
-    function for post-form request; register process given POST form arguments
-    '''
-
-    try:
-        if userSignedIn():
-            return unauthorizedFlow()
-
-        #store form information
-        username = request.form.get('username')
-        password = request.form.get('password')
-        con_password = request.form.get('confirm_password')
-
-        #checks password requirements against password confirmation and password existence; False means it passes requirements
-        password_conflict = (not bool(password)) or password != con_password
-
-        #checks db for existing user and user existence; False means it passes requirements
-        username_conflict = (not bool(username)) or user_exists(username)
-
-        if not (password_conflict or username_conflict):
-            add_user(username, password)
-            return redirect("/login")
-
-        else:
-            #Error messages based on incorrect input types
-            extra_Message = "An error has been made trying to register you."
-            if password_conflict:
-                extra_Message = "Password requirements not met. Check to see that password is at least one character and that password confirmation matches"
-
-            elif username_conflict:
-                extra_Message = "Username may already be in use, or does not contain at least one character"
-
-            return render_template('register.html', extra_Message=extra_Message)
-    except:
-        return render_template('ErrorResponse.html')
-
 
 @app.route("/auth_ed", methods=['POST'])
 def authenticate():
@@ -130,9 +75,6 @@ def logout():
     except:
         return render_template('ErrorResponse.html')
 
-@app.route("/band/<string:band>")
-def get_band(band):
-    return redirect("/description/kpop/band/" + band)
 
 #attribute,table,search,condition
 @app.route("/<string:attribute>/<string:table>/<string:search>/<string:condition>")
