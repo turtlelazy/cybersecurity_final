@@ -42,6 +42,9 @@ We are creating a capture the flag type of activity where users will be required
 12/28/2021
 * Grace Chen (at home): Set up Digitalocean account and successfully deployed a test machine and logged into it.
 
+12/29/2021
+* Ishraq Mahid (at home): search bar setup -> need to put in info and create challeneges for individual admin accounts
+
 ## Haikus:
 A graceful fish swims. <br>
 Oh so very fast it is! <br>
