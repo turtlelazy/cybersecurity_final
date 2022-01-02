@@ -3,6 +3,7 @@ from flask import request, render_template, Flask, redirect
 from data.user_validation import *
 from os import urandom
 from data.recipe_data import *
+from random import shuffle
 app = Flask(__name__)
 debug = True
 
@@ -33,6 +34,23 @@ def welcome():
     '''
 
     if userSignedIn():
+        if session['username'] == 'bobby2':
+            if "query" in request.args.keys():
+                response = request.args.get("query")
+                response = getMatches("no_no", "word", response)
+                shuffle(response)
+                return render_template("challenge0.html", user=session['username'], response=response)
+            return render_template("challenge0.html",user=session['username'])
+        elif session['username'] == 'bobby0':
+            return render_template("false.html",user=session['username'],gif="/static/large_duck.gif")
+        elif session['username'] == 'bobby1':
+            response = execute("""SELECT * FROM operation_pigeon""")
+            organization = response[0][0]
+            mission = response[0][1]
+            objective = response[0][2]
+            visit = response[0][3]
+            return render_template('ducky_overlords.html',user=session['username'],gif="/static/cool_duck.gif",organization=organization,mission=mission,objective=objective,visit=visit)
+
         return "logged in users should see something different"
     return render_template("main_page.html")
 
@@ -85,8 +103,9 @@ def logout():
 def searchbar():
     if "query" in request.args.keys():
         response = request.args.get("query")
-        response = getMatches("contacts", "first_name", response)
-
+        response = getMatches("contacts", "name", response)
+        shuffle(response)
+        print(response)
         return render_template("searchbar.html", response=response)
     return render_template("searchbar.html")
 
@@ -99,7 +118,7 @@ def main():
         app.debug = True
         app.run(host="0.0.0.0")
     except:
-        return render_template('ErrorResponse.html')
+        print("error in running app")
 
 
 if __name__ == "__main__":
