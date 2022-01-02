@@ -1,6 +1,6 @@
 from flask import session
 from flask import request, render_template, Flask, redirect
-from data.data_functions import *
+from data.user_validation import *
 from os import urandom
 from data.recipe_data import *
 app = Flask(__name__)
@@ -80,26 +80,6 @@ def logout():
         return render_template('login_Page.html', extra_Message="Successfully Logged Out")
     except:
         return render_template('ErrorResponse.html')
-
-
-#attribute,table,search,condition
-@app.route("/<string:attribute>/<string:table>/<string:search>/<string:condition>")
-def get_info(attribute, table, search, condition):
-    return render_template("display_band.html", band=condition, contents=getInformation(attribute, table, search, condition)[0][0])
-
-
-@app.route("/table", methods=['GET', 'POST'])
-def table():
-    response = request.args.get("query")
-    response = getMatches("contacts", "first_name", response)
-
-
-    return render_template("search_table.html",response=response)
-
-@app.route("/members",methods=['GET'])
-def members():
-    response = ["a","b","c"]
-    return render_template("show_list.html",resource_response=response)
 
 @app.route("/searchbar",methods=['GET', 'POST'])
 def searchbar():
