@@ -9,43 +9,49 @@
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
     </head>
-
     <body>
-        <h1>Search for a Fellow Ducker!</h1>
+        <div style="background-image: url('/static/rubberducks.jpg');
+                                    background-color: rgba(255,255,255,0.6); 
+                                    background-blend-mode: color-dodge; height: 100%;">
+          
+            <a href="/">Return to home</a>
+            <h1>Search for a Fellow Ducker!</h1>
 
-        <div class="input-group">
-            <form action="/searchbar" method = "GET">
+            <div class="input-group">
+                <form action="/searchbar" method = "GET">
+                    
+                    <div class="form-outline">
+                        <input name = "query" type="search" id="form1" class="form-control" />
+                        <label class="form-label" for="form1">Search</label>
+                    </div>
+
+                    <input type="submit" class="btn btn-primary" value = "search">
+                    <i class="fas fa-search"></i>
+                    </button>
+                </form>
                 
-                <div class="form-outline">
-                    <input name = "query" type="search" id="form1" class="form-control" />
-                    <label class="form-label" for="form1">Search</label>
-                </div>
+            </div>
 
-                <input type="submit" class="btn btn-primary" value = "search">
-                <i class="fas fa-search"></i>
-                </button>
-            </form>
-            
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Ducker</th>
+                        <th scope="col">Ducker Age</th>
+                        <th scope="col">Ducker Phone Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in response %}
+                    <tr>
+                        <td>{{item[0]}}</td>
+                        <td>{{item[1]}}</td>
+                        <td>{{item[2]}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
         </div>
 
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">Ducker</th>
-                    <th scope="col">Ducker ID</th>
-                    <th scope="col">Ducker Call Tag</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for item in response %}
-                <tr>
-                    <td>{{item[0]}}</td>
-                    <td>{{item[1]}}</td>
-                    <td>{{item[2]}}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-
     </body>
+
 </html>

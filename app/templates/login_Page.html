@@ -13,24 +13,26 @@ P00-homepage -- Moving Slowly -- No Place Like Home
 </head>
 
 <body style="background-image: url('/static/rubberducks.jpg');">
-    <p>
-        {{extra_Message}}
-    </p>
-</body>
+    <a href = "/">Return to home</a>
+    <div>
 
-<body>
-    <h1>
-        Please enter your login information.
-    </h1>
-    <form action="/auth_ed" method="POST">
-        Username:
-        <input type="text" name="username">
-        <br>
-        Password:
-        <input type="password" name="password">
-        <br>
-        <input type="submit" value="Login"> <!-- Allows you to return text as a username and press a submit button -->
-    </form>
+        <p>
+            {{extra_Message}}
+        </p>
+
+        <h1>
+            Please enter your login information.
+        </h1>
+        <form action="/auth_ed" method="POST">
+            Username:
+            <input type="text" name="username">
+            <br>
+            Password:
+            <input type="password" name="password">
+            <br>
+            <input type="submit" value="Login"> <!-- Allows you to return text as a username and press a submit button -->
+        </form>
+    </div>
 </body>
 <!--First body for entering login credentials -->
 <!-- Second body for registering new account -->

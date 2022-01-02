@@ -49,7 +49,7 @@ def welcome():
             mission = response[0][1]
             objective = response[0][2]
             visit = response[0][3]
-            return render_template('ducky_overlords.html',user=session['username'],gif="/static/cool_duck.gif",organization=organization,mission=mission,objective=objective,visit=visit)
+            return render_template('ducky_overlords.html',user=session['username'],gif="/static/duckyoverlords.gif",organization=organization,mission=mission,objective=objective,visit=visit)
 
         return "logged in users should see something different"
     return render_template("main_page.html")

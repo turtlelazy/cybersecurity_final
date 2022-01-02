@@ -24,13 +24,12 @@ mass_query = """INSERT INTO contacts (name,ducker_id,ducker_tag)
 loop = 25
 for x in range(loop):
     contact = randomContact()
-    ducker_id = hashlib.md5(
-        (str(contact[1]).encode())).hexdigest()
+    ducker_age = contact[1]
     letters = string.ascii_letters
     
-    ducker_tag = ''.join(random.choice(letters) for i in range(8))
+    ducker_tag = contact[2]
     contact_string = f'''("{contact[0]}",
-                            "{ducker_id}",
+                            "{ducker_age}",
                             "{ducker_tag}")'''
     if not x==loop-1:
         contact_string += ","
