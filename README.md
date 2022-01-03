@@ -45,6 +45,9 @@ We are creating a capture the flag type of activity where users will be required
 12/29/2021
 * Ishraq Mahid (at home): search bar setup -> need to put in info and create challeneges for individual admin accounts
 
+1/2/2022
+* Grace Chen (at home): Successfully set up DigitalOcean machine for the challenge. Still need to configure it so that it doesn't allow remote root logins. Worked on the google slides for the presentation.
+
 ## Haikus:
 A graceful fish swims. <br>
 Oh so very fast it is! <br>
