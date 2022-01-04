@@ -23,7 +23,7 @@ Suddenly, currents <br>
 The graceful fish can't keep up :( <br>
 Will its grace prevail?
 
-## Documents/Presentation
+## Documents/Presentation + Any Other Resources
 Link to planning document: https://docs.google.com/document/d/1Ha1vOAJRb35Ei32Rkq19hncYhVfalp1soGSrM-R59Ik/edit?usp=sharing <br>
 Link to slides: https://docs.google.com/presentation/d/1lHERkTjasriZZWj2upCdgcLkcUiVW0KcoBhyXDWVAno/edit?usp=sharing <br>
 Link to walkthrough: https://docs.google.com/document/d/16cP2Rw6tQDJ3z8khmlpGxjji0FtcgEO2X0o-9zVF5VI/edit?usp=sharing <br>
@@ -33,14 +33,13 @@ Link to walkthrough: https://docs.google.com/document/d/16cP2Rw6tQDJ3z8khmlpGxjj
 
 Prerequisites:
     Python 3 is installed and necessary environment variables are setup properly.
-    VirtualOpenBox is downloaded and downloadable virtual machine is compatible with hardware.
-
+    If using Windows, utilizing WSL and willing to go threw a few extra steps that may be necessary if certain packages aren't preinstalled
 Clone repo:
     <br>
     In the directory you want to have the code in, type into a terminal
     <br>
     ```
-    $ git clone git@github.com:turtlelazy/cybersecurity_final.git
+    $ git clone https://github.com/turtlelazy/cybersecurity_final
     ```
 
 Create a virtual environment (unless you already have one):

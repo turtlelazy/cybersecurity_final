@@ -106,7 +106,7 @@ mass_query = """INSERT INTO breadcrumbs (
                                      super_secret_2)
 """
 mass_query += """ VALUES
-             (1,"a","b","c"),"""
+             (1,"ZbKHN1QezB8K7aqXK9Fg","UUsp3w5PknpRu6MK","5Mqikg9398SCzx1eEuzn"),"""
 def rand_pass(length):
     letters = string.ascii_letters + string.digits
     return ''.join(random.choice(letters) for i in range(20))
@@ -133,7 +133,7 @@ c.execute("""CREATE TABLE operation_pigeon(
 organization_name = "Evil Duckies United Corp."
 mission_statement = "Here at EDUC, we aim to make a better world. We aim to create a glorious future. For the betterment of duckies worldwide, we aim to make duckies great again."
 objective = "We will not stop until all our enemies bow underneath our feet."
-visit = "Login to 192.81.217.71 with your ducky credentials, and await further instructions"
+visit = "Login to 167.71.250.167 with your ducky credentials, and await further instructions"
 c.execute(f"""INSERT INTO operation_pigeon(organization_name,mission_statement,objective,visit)
              VALUES
              ("{organization_name}","{mission_statement}","{objective}","{visit}");
