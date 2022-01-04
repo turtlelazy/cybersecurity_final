@@ -7,6 +7,13 @@
 ## Project Description:
 We are creating a capture the flag type of activity where users will be required to use SQL injection and other already-taught tools. For the presentation, we will be reteaching how SQL works and useful keywords to reiterate students' understanding of SQL Injection. The activity will require students to deploy a web app locally (through a virtual machine or other personal device) and connect to it .
 
+1/2/2022
+* Grace Chen (at home): Successfully set up DigitalOcean machine for the challenge. Still need to configure it so that it doesn't allow remote root logins. Worked on the google slides for the presentation.
+
+1/3/2022
+* Grace Chen (in class): Continued working on google slides for presentation.
+* Grace Chen (at home): Disabled remote root logins for DigitalOcean machine. Helped with walkthrough and slides.
+
 ## Haikus:
 A graceful fish swims. <br>
 Oh so very fast it is! <br>
@@ -17,16 +24,16 @@ The graceful fish can't keep up :( <br>
 Will its grace prevail?
 
 ## Documents/Presentation
-* Link to planning document: https://docs.google.com/document/d/1Ha1vOAJRb35Ei32Rkq19hncYhVfalp1soGSrM-R59Ik/edit?usp=sharing
-* Link to presentation:
-* Link to Capture the Flag assignment Instructions
+Link to planning document: https://docs.google.com/document/d/1Ha1vOAJRb35Ei32Rkq19hncYhVfalp1soGSrM-R59Ik/edit?usp=sharing <br>
+Link to slides: https://docs.google.com/presentation/d/1lHERkTjasriZZWj2upCdgcLkcUiVW0KcoBhyXDWVAno/edit?usp=sharing <br>
+Link to walkthrough: https://docs.google.com/document/d/16cP2Rw6tQDJ3z8khmlpGxjji0FtcgEO2X0o-9zVF5VI/edit?usp=sharing <br>
+
 
 ## Launch Codes:
+
 Prerequisites:
     Python 3 is installed and necessary environment variables are setup properly.
     VirtualOpenBox is downloaded and downloadable virtual machine is compatible with hardware.
-
-
 
 Clone repo:
     <br>
@@ -102,5 +109,9 @@ Launching the website app:
 
 12/29/2021
 * Ishraq Mahid (at home): search bar setup -> need to put in info and create challeneges for individual admin accounts
+
 1/2/2022
 * Ishraq Mahid (at home): finalizing project + finishing touches
+
+1/3/2022
+* Ishraq Mahid (at home): lessons + something i forgot to do before
