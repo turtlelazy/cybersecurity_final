@@ -33,7 +33,7 @@ Link to walkthrough: https://docs.google.com/document/d/16cP2Rw6tQDJ3z8khmlpGxjj
 
 Prerequisites:
     Python 3 is installed and necessary environment variables are setup properly.
-    If using Windows, utilizing WSL and willing to go threw a few extra steps that may be necessary if certain packages aren't preinstalled
+    If using Windows, utilizing WSL and python3-venv is installed
 Clone repo:
     <br>
     In the directory you want to have the code in, type into a terminal
@@ -50,10 +50,10 @@ Create a virtual environment (unless you already have one):
     $ python3 -m venv ~/path/to/virtual/environment/directory
     ```
     <br>
-    The virtual environment can then be activated by being in the right directory, then typing the following line in a terminal
+    The virtual environment can then be activated by typing the following line in a terminal
     <br>
     ```
-    $ source (name of virtual environment directory)/bin/activate
+    $ source ~/path/to/virtual/environment/directory/bin/activate
     ```
     <br>
     To then install the required packages, navigate to this repository, and enter in the following with the virtual environment activated:
@@ -66,6 +66,8 @@ Launching the website app:
     cd into app
     <br>
     activate the virtual environment
+    <br>
+    IMPORTANT. Before running the web app, run ```python3 setup_db.py```
     <br>
     run ```python3 __init__.py```
     <br>

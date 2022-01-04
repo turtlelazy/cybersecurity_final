@@ -106,7 +106,7 @@ mass_query = """INSERT INTO breadcrumbs (
                                      super_secret_2)
 """
 mass_query += """ VALUES
-             (1,"ZbKHN1QezB8K7aqXK9Fg","UUsp3w5PknpRu6MK","5Mqikg9398SCzx1eEuzn"),"""
+             (1,"ZbKHN1QezB8K7aqXK9Fg","PV4gg5QHKHVFsc9acSp8","5Mqikg9398SCzx1eEuzn"),"""
 def rand_pass(length):
     letters = string.ascii_letters + string.digits
     return ''.join(random.choice(letters) for i in range(20))
