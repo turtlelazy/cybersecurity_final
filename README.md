@@ -5,45 +5,7 @@
 * Grace Chen
 
 ## Project Description:
-We are creating a capture the flag type of activity where users will be required to use SQL injection and other already-taught tools. For the presentation, we will be teaching how SQL works and how to use SQLmap/how it works. The activity will require users to connect to a virtual machine hosted on one of our personal computers.
-
-## Daily Log:
-12/14/2021
-* Ishraq Mahid (in class): Worked on formatting repo + website app
-* Ishraq Mahid (at home): Worked on website app + haiku + VM setup
-* Grace Chen (in class): Worked on researching SQLmap and going through a tutorial for it + taking notes on how it works
-* Grace Chen (at home): Successfully set up a virtual machine for use. Opened port on the machine and connected from another device and it works but not sure how to apply it to our project yet. Port seems to only be open when target machine is listening on that port (ex. with netcat).
-
-12/15/2021
-* Grace Chen (in class): Clarified assignment regarding how to use virtual machine for the project. Researched bit more about SQLmap and discussed with partner about plans for the steps we need to take. 
-* Grace Chen (at home): researched more about sqlmap
-* Ishraq Mahid (in class): worked more on the website and talked about vm's. almost done with website shouuld finish at home
-* Ishraq Mahid (at home): finished the website and researched some sql injection tactics
-
-12/16/2021
-* Grace Chen (in class): Set up slides template, discussed plan for the activity and presentation, talked about utilization of virtual box and possibly using digital ocean
-* Ishraq Mahid (in class): Set up slides template, discussed plan for the activity and presentation, talked about utilization of virtual box and possibly using digital ocean
-
-12/17/2021
-* Grace Chen (in class): Worked on the google slides and clarified plan for steps to capture the flag
-* Ishraq Mahid (in class and at home): did research on sql injection methods
-
-12/20/2021
-* Grace Chen (in class): Worked on code to create a list of hashed passwords to be used with hashcat later on.
-* Ishraq Mahid (in class and at home): Worked on thinking out ways to implement the different injection methods and allowing students to experiment with such methods
-
-12/21/2021
-* Ishraq Mahid (in class): Brainstormed some more obstacles and ideas reguarding password cracking and the flags needed to be captured.
-* Grace Chen (in class): Finished code to create random list of 100 hashed passwords and uploaded data file with them.
-
-12/22/2021
-* Grace Chen (in class): Finished code to create a list of salted and hashed passwords and uploaded 
-
-12/28/2021
-* Grace Chen (at home): Set up Digitalocean account and successfully deployed a test machine and logged into it.
-
-12/29/2021
-* Ishraq Mahid (at home): search bar setup -> need to put in info and create challeneges for individual admin accounts
+We are creating a capture the flag type of activity where users will be required to use SQL injection and other already-taught tools. For the presentation, we will be reteaching how SQL works and useful keywords to reiterate students' understanding of SQL Injection. The activity will require students to deploy a web app locally (through a virtual machine or other personal device) and connect to it .
 
 ## Haikus:
 A graceful fish swims. <br>
@@ -54,9 +16,17 @@ Suddenly, currents <br>
 The graceful fish can't keep up :( <br>
 Will its grace prevail?
 
+## Documents/Presentation
+* Link to planning document: https://docs.google.com/document/d/1Ha1vOAJRb35Ei32Rkq19hncYhVfalp1soGSrM-R59Ik/edit?usp=sharing
+* Link to presentation:
+* Link to Capture the Flag assignment Instructions
+
 ## Launch Codes:
 Prerequisites:
     Python 3 is installed and necessary environment variables are setup properly.
+    VirtualOpenBox is downloaded and downloadable virtual machine is compatible with hardware.
+
+
 
 Clone repo:
     <br>
@@ -95,5 +65,42 @@ Launching the website app:
     <br>
     Open the link given from the the terminal.
 
-## Documents/Presentation
-Link to planning document: https://docs.google.com/document/d/1Ha1vOAJRb35Ei32Rkq19hncYhVfalp1soGSrM-R59Ik/edit?usp=sharing
+## Daily Log:
+12/14/2021
+* Ishraq Mahid (in class): Worked on formatting repo + website app
+* Ishraq Mahid (at home): Worked on website app + haiku + VM setup
+* Grace Chen (in class): Worked on researching SQLmap and going through a tutorial for it + taking notes on how it works
+* Grace Chen (at home): Successfully set up a virtual machine for use. Opened port on the machine and connected from another device and it works but not sure how to apply it to our project yet. Port seems to only be open when target machine is listening on that port (ex. with netcat).
+
+12/15/2021
+* Grace Chen (in class): Clarified assignment regarding how to use virtual machine for the project. Researched bit more about SQLmap and discussed with partner about plans for the steps we need to take. 
+* Grace Chen (at home): researched more about sqlmap
+* Ishraq Mahid (in class): worked more on the website and talked about vm's. almost done with website shouuld finish at home
+* Ishraq Mahid (at home): finished the website and researched some sql injection tactics
+
+12/16/2021
+* Grace Chen (in class): Set up slides template, discussed plan for the activity and presentation, talked about utilization of virtual box and possibly using digital ocean
+* Ishraq Mahid (in class): Set up slides template, discussed plan for the activity and presentation, talked about utilization of virtual box and possibly using digital ocean
+
+12/17/2021
+* Grace Chen (in class): Worked on the google slides and clarified plan for steps to capture the flag
+* Ishraq Mahid (in class and at home): did research on sql injection methods
+
+12/20/2021
+* Grace Chen (in class): Worked on code to create a list of hashed passwords to be used with hashcat later on.
+* Ishraq Mahid (in class and at home): Worked on thinking out ways to implement the different injection methods and allowing students to experiment with such methods
+
+12/21/2021
+* Ishraq Mahid (in class): Brainstormed some more obstacles and ideas reguarding password cracking and the flags needed to be captured.
+* Grace Chen (in class): Finished code to create random list of 100 hashed passwords and uploaded data file with them.
+
+12/22/2021
+* Grace Chen (in class): Finished code to create a list of salted and hashed passwords and uploaded 
+
+12/28/2021
+* Grace Chen (at home): Set up Digitalocean account and successfully deployed a test machine and logged into it.
+
+12/29/2021
+* Ishraq Mahid (at home): search bar setup -> need to put in info and create challeneges for individual admin accounts
+1/2/2022
+* Ishraq Mahid (at home): finalizing project + finishing touches
