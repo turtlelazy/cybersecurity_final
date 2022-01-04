@@ -60,7 +60,7 @@ Launching the website app:
     <br>
     activate the virtual environment
     <br>
-    IMPORTANT. Before running the web app, run ```python3 setup_db.py```
+    Before running the web app, run ```python3 setup_db.py``` This resets the database. If you do not have internet, it should be safe to proceed, but come back to this step if there appears to be some sort of error related to the database.
     <br>
     run ```python3 __init__.py```
     <br>
