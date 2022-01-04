@@ -102,6 +102,6 @@ Launching the website app:
     Open the link given from the the terminal.
 
 ## Documents/Presentation
-Link to planning document: https://docs.google.com/document/d/1Ha1vOAJRb35Ei32Rkq19hncYhVfalp1soGSrM-R59Ik/edit?usp=sharing
-Link to slides: https://docs.google.com/presentation/d/1lHERkTjasriZZWj2upCdgcLkcUiVW0KcoBhyXDWVAno/edit?usp=sharing
-Link to walkthrough: https://docs.google.com/document/d/16cP2Rw6tQDJ3z8khmlpGxjji0FtcgEO2X0o-9zVF5VI/edit?usp=sharing 
+Link to planning document: https://docs.google.com/document/d/1Ha1vOAJRb35Ei32Rkq19hncYhVfalp1soGSrM-R59Ik/edit?usp=sharing <br>
+Link to slides: https://docs.google.com/presentation/d/1lHERkTjasriZZWj2upCdgcLkcUiVW0KcoBhyXDWVAno/edit?usp=sharing <br>
+Link to walkthrough: https://docs.google.com/document/d/16cP2Rw6tQDJ3z8khmlpGxjji0FtcgEO2X0o-9zVF5VI/edit?usp=sharing <br>
