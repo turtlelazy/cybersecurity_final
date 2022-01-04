@@ -7,13 +7,6 @@
 ## Project Description:
 We are creating a capture the flag type of activity where users will be required to use SQL injection and other already-taught tools. For the presentation, we will be reteaching how SQL works and useful keywords to reiterate students' understanding of SQL Injection. The activity will require students to deploy a web app locally (through a virtual machine or other personal device) and connect to it .
 
-1/2/2022
-* Grace Chen (at home): Successfully set up DigitalOcean machine for the challenge. Still need to configure it so that it doesn't allow remote root logins. Worked on the google slides for the presentation.
-
-1/3/2022
-* Grace Chen (in class): Continued working on google slides for presentation.
-* Grace Chen (at home): Disabled remote root logins for DigitalOcean machine. Helped with walkthrough and slides.
-
 ## Haikus:
 A graceful fish swims. <br>
 Oh so very fast it is! <br>
@@ -113,6 +106,9 @@ Launching the website app:
 
 1/2/2022
 * Ishraq Mahid (at home): finalizing project + finishing touches
+* Grace Chen (at home): Successfully set up DigitalOcean machine for the challenge. Still need to configure it so that it doesn't allow remote root logins. Worked on the google slides for the presentation.
 
 1/3/2022
+* Grace Chen (in class): Continued working on google slides for presentation.
+* Grace Chen (at home): Disabled remote root logins for DigitalOcean machine. Helped with walkthrough and slides.
 * Ishraq Mahid (at home): lessons + something i forgot to do before
