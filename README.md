@@ -50,6 +50,7 @@ We are creating a capture the flag type of activity where users will be required
 
 1/3/2022
 * Grace Chen (in class): Continued working on google slides for presentation.
+* Grace Chen (at home): Disabled remote root logins for DigitalOcean machine. Helped with walkthrough and slides.
 
 ## Haikus:
 A graceful fish swims. <br>
